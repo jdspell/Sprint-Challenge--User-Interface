@@ -85,9 +85,25 @@ p {
     padding-bottom: 20px;  
 }
 
+@keyframes rainbow {
+    0% {background-color: teal;}
+    10% {background-color: gold;}
+    20% {background-color: cadetblue;}
+    30% {background-color: coral;}
+    40% {background-color: crimson;}
+    50% {background-color: forestgreen;}
+    60% {background-color: darkorchid;}
+    70% {background-color: hotpink;}
+    80% {background-color: indigo;}
+    90% {background-color: dodgerblue;}
+    100% {background-color: white;}
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    animation-name: rainbow;
+    animation-duration: 20s;
 }
 
 .middle-content h2 {
@@ -266,6 +282,7 @@ header nav a {
     color: black;
     border-radius: 5px;
     padding-top: 2%;
+    padding-bottom: 1%;
 }
 
 .work-together {
