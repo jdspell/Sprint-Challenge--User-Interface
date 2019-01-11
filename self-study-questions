@@ -1,0 +1,9 @@
+1. Semantic html is the process of adding meaning to the html. Rather than just dividing up content semantic html allows developers to logically split content into groups.
+
+2. If an element is display:block then the block that the browser provides the content stretches to the end of the webpage. Whereas if an element is display:inline then the element's block does not stretch to the other side of the webpage. This allows inline elements to sit on the same line.
+
+3. The four areas of the box model are margin, border, padding, and content.
+
+4. The align-items:center property works along the cross axis.
+
+5. Git is valuable to developers because it affords them the ability to track changes, work from a local repository, and control what code is merged into the product.
