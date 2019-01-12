@@ -85,9 +85,25 @@ p {
     padding-bottom: 20px;  
 }
 
+@keyframes rainbow {
+    0% {background-color: teal;}
+    10% {background-color: gold;}
+    20% {background-color: cadetblue;}
+    30% {background-color: coral;}
+    40% {background-color: crimson;}
+    50% {background-color: forestgreen;}
+    60% {background-color: darkorchid;}
+    70% {background-color: hotpink;}
+    80% {background-color: indigo;}
+    90% {background-color: dodgerblue;}
+    100% {background-color: white;}
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    animation-name: rainbow;
+    animation-duration: 20s;
 }
 
 .middle-content h2 {
@@ -104,7 +120,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +159,142 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 3% 0%;
+}
+
+header nav {
+    width: 80%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.middle-img {
+    margin-bottom: 2%;
+}
+
+.box1 {
+    background: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
+}
+
+.skyline-img {
+    width: 100%;
+    margin: 2% 0%;
+}
+
+.about-page .about {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding: 0% 2%;
+}
+
+.about-page .about-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    border-top: 1px dashed black;
+    padding: 4% 2% 4% 3%;
+    margin: 2% 0%;
+}
+
+.about-content .content {
+    width: 47%;
+    padding-bottom: 3%;
+}
+
+.about-content .topLeft-content, .bottomLeft-content  {
+    margin-right: 2%;
+}
+
+.about-content .topRight-content, .bottomRight-content {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.about-content .topRight-content, .topLeft-content {
+    border-bottom: 1px dashed lightgray;
+    margin-bottom: 5%;
+}
+
+.about-content .bottomLeft-content, .bottomRight-content {
+    border-bottom: 1px dashed gray;
+}
+
+.about-content content-images {
+    width: 100%;
+}
+
+.about-content .content button {
+    width: 30%;
+    height: 8%;
+    margin: 2% 0%;
+    background: white;
+    border: 2px solid black;
+    color: black;
+    border-radius: 5px;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+.work-together {
+    width: 94%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: space-around;
+    margin: 3% 3% 5% 3%;
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        background-color: #c9aa88;
+    }
 }
